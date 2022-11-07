@@ -81,3 +81,15 @@ Absolutely. You have two options. Either inject `module-info.java` into existing
 ### macOS dmg support?
 
 Not planned.
+
+**Steps I did on arch**
+
+```
+yay -S rpmdevtools
+yay -S rpm-builder
+yay -S debmake
+
+gradle run
+gradle jlink
+gradle jpackage
+```
