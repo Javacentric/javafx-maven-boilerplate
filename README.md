@@ -97,3 +97,4 @@ $ appimagetool app-dir boilerplate.AppImage generate
 
 ```
 
+I ran into problems with rpm-builder: cloning the repo and using Makefile then copy target/release/rpm-builder executabe to /bin worked
